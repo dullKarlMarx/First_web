@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Personal</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="preloader">
+
+    </div>
+    <div id="top">
+        <h1>Agustin Vazquez</h1>
+        <h3>Futuro Presidente de la Republica Oriental del Uruguay</h3>
+    </div>
+    <!-- Arreglar esto que esta horrible-->
+    <div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#sobre_mi">Sobre mi</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="sobre_mi">
+        <h2>
+            Sobre mi
+        </h2>
+
+        <p>
+            Tengo 30 años, soy uruguayo y actualmente vivo en La Coronilla (Rocha).
+        </p>
+        <p>
+            Trabajo como peón y portero en un molino que se dedica a elaborar arroz utilizado en la culinaria japonesa.
+        </p>
+        <p>
+            A lo largo de mi vida todos mis trabajos han sido trabajos sin una cualificación necesaria
+            Además de mi trabajo estoy estudiando para ser un Front-End Developer a través del programa Jóvenes a
+            Programar.
+        </p>
+        <p>
+            Mis tiempos libres los dedico a estar con mi familia, jugar o mirar fútbol, leer mangas, leer sobre política
+            y filosofía y sobre la industria del videojuego. Me sumo y disfruto cualquier competencia sana
+
+        </p>
+        <hr>
+    </div>
+    <div id="habilidades">
+        <h2>
+            Habilidades
+            <!-- Persistencia, responsabilidad, obstinacion, problem solver, trabajos de fuerza, horarios extensos -->
+
+        </h2>
+        <ol>
+            <li>Soy muy bueno buscando en google y no paro hasta encontrar lo que estoy buscando</li>
+            <li>Si la solucion al problema que estoy teniendo no lo encuentro ene l buscador, trato de comunicarme con
+                alguien que me puedo ayudar a solucioanrlo</li>
+            <li>Segun la escala IELTS mi nivel de proficiency es B2</li>
+            <li>Soy resonsable con mis horarios y me preocupo por mis compañeros</li>
+            <li>Ya les dije que soy muy bueno buscando en google?</li>
+        </ol>
+
+        <hr>
+    </div>
+    <div id="objetivos">
+        <h2>
+            Objetivos
+        </h2>
+        <h4>
+            A corto plazo
+        </h4>
+        <ol>
+            <li>
+                Terminar <a href="https://jovenesaprogramar.edu.uy/">JAP</a>
+            </li>
+            <li>
+                Certificacion de proficiency user (C1,C2) <a href="https://ielts.org.uy/">IELTS </a>
+            </li>
+            <li>
+                Crear un juego basico
+            </li>
+        </ol>
+        <h4>
+            A largo plazo
+        </h4>
+        <ol>
+            <li>
+                Estar trabajando en la industria del desarrollo
+            </li>
+            <li>
+                Retomar mis estudios uversitarios en la Facultad de Ciencias Sociales
+            </li>
+        </ol>
+
+        <hr>
+    </div>
+    <div id="contacto">
+        <h2>
+            Contacto
+        </h2>
+        <!-- linkear linkedin y schoology, github y stackoverflow, agregaar imagenes de estas -->
+
+        <p>
+            <a href="https://jovenesaprogramar.schoology.com/user/115062479/info"> <img alt="schoology_logo"
+                    src="schoology_logo.png"></a>
+
+            <a href="https://www.linkedin.com/in/agustin-vazquez-ab3544236/"><img alt="linkedin_logo"
+                    src="linkedin_logo.png"> </a>
+        </p>
+        <h3>
+            Mandame un mensaje
+        </h3>
+
+        <div id="contact_form">
+            <form action="http://www.example.com/example.htm" method="post">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" placeholder="Introduzca su nombre aqui...">
+
+                <label for="apellido"></label>
+                <input type="text" id="apellido" placeholder="Introduzca su apellido aqui...">
+
+                <label for="asunto"></label>
+                <select name="asunto" id="asunto">
+                    <option disabled selected value id="asunto_holder"> --Eliga un Asunto -- </option>
+                    <option value="consulta">Consulta</option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="reporte">Reporte</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="comentario"></label>
+                <textarea rows="2" id="comentario" name="comentario"></textarea>
+
+                <input type="submit" id="submit">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
